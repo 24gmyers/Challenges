@@ -2,6 +2,13 @@ parent1 = 0
 parent2 = 0
 square_size = 0
 working = False
+type = 0
+
+def allele_type():
+    while type != 1,2,3:
+        type = input{"Are the traits:\n1) Mandelian traits\n2) Tri-allele nonmandelian traits\n3) Sex-linked traits"}
+        if type != 1,2,3:
+
 
 def start_inputs(parent1,parent2,working,square_size):
     while working == False:
